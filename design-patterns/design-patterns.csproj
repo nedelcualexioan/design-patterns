@@ -6,8 +6,4 @@
     <RootNamespace>design_patterns</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Proxy\" />
-  </ItemGroup>
-
 </Project>

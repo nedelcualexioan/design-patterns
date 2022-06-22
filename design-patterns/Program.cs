@@ -1,5 +1,6 @@
 ﻿using System;
 using design_patterns.Decorator;
+using design_patterns.Proxy;
 
 namespace design_patterns
 {
@@ -7,8 +8,10 @@ namespace design_patterns
     {
         static void Main(string[] args)
         {
-            Example example = new Example();
-            example.run();
+            IImage x = new ProxyImage("asdasdas");
+
+            
+            x.display();
         }
     }
 }
